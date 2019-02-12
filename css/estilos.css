@@ -2722,7 +2722,7 @@ i.large {
 
 img.responsive-img,
 video.responsive-video {
-  max-width: 100%;
+  max-width: 40%;
   height: auto;
 }
 
@@ -4277,7 +4277,10 @@ nav {
   line-height: 56px;
 }
 
+
+
 nav.nav-extended {
+  position: fixed;
   height: auto;
 }
 
