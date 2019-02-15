@@ -4,3 +4,50 @@ padding: 70px 0px 0px 0px;
 #menu-icon{
   color: black;
 }
+
+/*********************
+  Media Query Classes
+**********************/
+
+/* MediaQueries para smartphone portrait */
+@media only screen and (max-width: 360px) {
+  .hide-on-med-and-down, .hide-on-small-only, .hide-on-small-and-down {
+    display: none !important;
+  }
+  .show-on-small-and-up, .show-on-small-only {
+    display: block !important;
+  }
+  .center-on-small-only {
+    text-align: center;
+  }
+}
+
+/* MediaQueries para smartphone Landscape y tablets portrait */
+@media only screen and (min-width: 361px) and (max-width: 600px){
+  .hide-on-med-and-down, .hide-on-med-only, .hide-on-med-and-up {
+    display: none !important;
+  }
+  .show-on-small-and-up, .show-on-med-and-up, .show-on-med-only {
+    display: block !important;
+  }
+}
+
+/* MediaQueries para tablets Landscape */
+@media only screen and (min-width: 601px) and (max-width: 768px){
+  .hide-on-med-and-up, .hide-on-large-only, .hide-on-large-and-up  {
+    display: none !important;
+  }
+  .show-on-med-and-up, .show-on-large-only, .show-on-large-and-up {
+    display: block !important;
+  }
+}
+
+/* MediaQueries para desktop */
+@media only screen and (min-width: 769px) {
+  .hide-on-med-and-up, .hide-on-large-and-up, .hide-on-extra-large-only {
+    display: none !important;
+  }
+  .show-on-med-and-up, .show-on-large-and-up, .show-on-extra-large-only {
+    display: block !important;
+  }
+}
