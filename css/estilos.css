@@ -3,6 +3,27 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+@media only screen and (min-width: 0) {
+  /*Barra de navegacion fija navbar*/
+  nav.nav-extended {
+    max-height: 45px;
+  }
+  #logoda{
+    height: 35px;
+  }
+  nav .brand-logo {
+    left: 5%;
+  }
+  nav .sidenav-trigger {
+    left: 90%;
+  }
+}
+/*Barra de navegacion fija navbar*/
+}
+
+
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4349,7 +4370,6 @@ nav .brand-logo.center {
 
 @media only screen and (max-width: 992px) {
   nav .brand-logo {
-    left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
@@ -4477,6 +4497,7 @@ nav .input-field label.active i {
 }
 
 @media only screen and (min-width: 601px) {
+/*Barra de navegacion fija navbar*/
   nav.nav-extended .nav-wrapper {
     max-height: 40px;
   }
@@ -4504,10 +4525,10 @@ nav .input-field label.active i {
     font-size: 12px;
   }
   #logoda{
-    height: 30px;
+    height: 35px;
   }
 }
-
+/*Barra de navegacion fija navbar*/
 a {
   text-decoration: none;
 }
