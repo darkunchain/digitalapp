@@ -2,7 +2,7 @@
 padding: 70px 0px 0px 0px;
 }
 #menu-icon{
-  color: black;
+  color: white;
 }
 
 html {
@@ -112,6 +112,21 @@ nav .sidenav-trigger i {
   }
   .show-on-med-and-up, .show-on-large-only, .show-on-large-and-up {
     display: block !important;
+  }
+  nav.nav-extended {
+    height: 90px !important;
+    max-height: 90px !important;
+  }
+  nav.nav-extended .nav-wrapper {
+    max-height: 90px;
+    height: auto;
+  }
+  nav .brand-logo {
+    max-height: 50px;
+    margin-top: 7px;
+  }
+  #logoda{
+    height: 50px;
   }
 }/* MediaQueries para tablets Landscape */
 

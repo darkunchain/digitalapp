@@ -4404,9 +4404,6 @@ nav .input-field label.active i {
   .navbar-fixed {
     height: 40px;
   }
-  nav .brand-logo {
-    max-height: 30px;
-  }
   .tabs .tab {
     line-height: 20px;
     height: 20px;
@@ -4417,9 +4414,6 @@ nav .input-field label.active i {
   }
   .tabs .tab a {
     font-size: 12px;
-  }
-  #logoda{
-    height: 35px;
   }
 }
 /*Barra de navegacion fija navbar*/
