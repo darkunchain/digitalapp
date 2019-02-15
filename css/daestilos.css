@@ -5,6 +5,30 @@ padding: 70px 0px 0px 0px;
   color: black;
 }
 
+html {
+  font-size: 14px;
+}
+
+nav.nav-extended {
+  max-height: 45px;
+}
+#logoda{
+  height: 35px;
+}
+nav .sidenav-trigger i {
+  line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*********************
   Media Query Classes
 **********************/
@@ -20,7 +44,26 @@ padding: 70px 0px 0px 0px;
   .center-on-small-only {
     text-align: center;
   }
-}
+  div#row-nav.row {
+    height: 40px;
+  }
+  nav .sidenav-trigger {
+    left: 60%;
+    height: 45px;
+  }
+  nav .sidenav-trigger i {
+    height: 45px !important;
+  }
+  #logodap{
+    height: 35px;
+  }
+  nav .brand-logo {
+    height: 45px;
+  }
+  div#col-logo {
+    height: 45px;
+  }
+}/* MediaQueries para smartphone portrait */
 
 /* MediaQueries para smartphone Landscape y tablets portrait */
 @media only screen and (min-width: 361px) and (max-width: 600px){
@@ -30,7 +73,7 @@ padding: 70px 0px 0px 0px;
   .show-on-small-and-up, .show-on-med-and-up, .show-on-med-only {
     display: block !important;
   }
-}
+}/* MediaQueries para smartphone Landscape y tablets portrait */
 
 /* MediaQueries para tablets Landscape */
 @media only screen and (min-width: 601px) and (max-width: 768px){
@@ -40,7 +83,7 @@ padding: 70px 0px 0px 0px;
   .show-on-med-and-up, .show-on-large-only, .show-on-large-and-up {
     display: block !important;
   }
-}
+}/* MediaQueries para tablets Landscape */
 
 /* MediaQueries para desktop */
 @media only screen and (min-width: 769px) {
@@ -50,4 +93,4 @@ padding: 70px 0px 0px 0px;
   .show-on-med-and-up, .show-on-large-and-up, .show-on-extra-large-only {
     display: block !important;
   }
-}
+}/* MediaQueries para desktop */

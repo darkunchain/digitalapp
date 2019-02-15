@@ -4,24 +4,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 
-@media only screen and (min-width: 0) {
-  /*Barra de navegacion fija navbar*/
-  nav.nav-extended {
-    max-height: 45px;
-  }
-  #logoda{
-    height: 35px;
-  }
-  nav .brand-logo {
-    left: 5%;
-  }
-  nav .sidenav-trigger {
-    left: 90%;
-  }
-  nav .sidenav-trigger i {
-    line-height: 40px;
-  }
-}
+
 /*Barra de navegacion fija navbar*/
 @media only screen and (max-width: 992px) {
   .tabs.tab {
@@ -4270,21 +4253,13 @@ nav .sidenav-trigger {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
-  margin: 0 18px;
 }
-
-nav .sidenav-trigger i {
-  height: 56px;
-}
-
 nav .brand-logo {
   position: absolute;
+  display: block;
   color: #fff;
-  display: inline-block;
   font-size: 2.1rem;
-  padding: 0;
-  max-height: 50px;
+
 }
 
 nav .brand-logo.center {
@@ -4294,10 +4269,6 @@ nav .brand-logo.center {
 }
 
 @media only screen and (max-width: 992px) {
-  nav .brand-logo {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
   nav .brand-logo.left, nav .brand-logo.right {
     padding: 0;
     -webkit-transform: none;
@@ -4423,9 +4394,6 @@ nav .input-field label.active i {
 
 @media only screen and (min-width: 601px) {
 /*Barra de navegacion fija navbar*/
-  nav.nav-extended .nav-wrapper {
-    max-height: 40px;
-  }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 30px;
     line-height: 30px;
@@ -4464,12 +4432,6 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
-}
-
-@media only screen and (min-width: 0) {
-  html {
-    font-size: 14px;
-  }
 }
 
 @media only screen and (min-width: 992px) {
