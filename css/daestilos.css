@@ -1,3 +1,43 @@
 #test1 {
 padding: 70px 0px 0px 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  .tabs .tab {
+    line-height: 10px;
+    height: 10px;
+  }
+  .tabs {
+    height: 10px;
+  }
+  nav.nav-extended .nav-content {
+    max-height: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .tabs .tab {
+    line-height: 5px;
+    height: 5px;
+  }
+  .tabs {
+    height: 5px;
+  }
+}
+
+@media only screen and (min-width: 601px){
+  .tabs .tab {
+    line-height: 10px;
+    height: 10px;
+  }
+  .tabs {
+    height: 10px;
+  }
+  nav.nav-extended .nav-content {
+    max-height: 50px;
+  }
+  nav .brand-logo {
+    max-height: 40px;
+  }
+}
