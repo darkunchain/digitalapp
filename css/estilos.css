@@ -4481,8 +4481,8 @@ nav .input-field label.active i {
     max-height: 40px;
   }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 40px;
-    line-height: 40px;
+    height: 30px;
+    line-height: 30px;
   }
   nav.nav-extended .nav-content {
     max-height: 50px;
@@ -4494,14 +4494,14 @@ nav .input-field label.active i {
     max-height: 30px;
   }
   .tabs .tab {
-    line-height: 10px;
-    height: 10px;
+    line-height: 20px;
+    height: 20px;
   }
   .tabs {
-    height: 10px;
+    height: 20px;
   }
   .tabs .tab a {
-    font-size: 11px;
+    font-size: 12px;
   }
   #logoda{
     height: 30px;
