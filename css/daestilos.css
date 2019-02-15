@@ -73,6 +73,33 @@ nav .sidenav-trigger i {
   .show-on-small-and-up, .show-on-med-and-up, .show-on-med-only {
     display: block !important;
   }
+  div#row-nav.row {
+    height: 60px;
+  }
+  nav .sidenav-trigger {
+    left: 60%;
+    height: 60px;
+  }
+  nav .sidenav-trigger i {
+    height: 60px !important;
+    margin-top: 8px;
+  }
+  #logoda{
+    height: 50px;
+    margin-top: 5px;
+  }
+  nav .brand-logo {
+    height: 60px;
+  }
+  div#col-logo {
+    height: 60px;
+  }
+  nav.nav-extended {
+    max-height: 60px;
+  }
+  nav i.material-icons {
+    font-size: 36px !important;
+  }
 }/* MediaQueries para smartphone Landscape y tablets portrait */
 
 /* MediaQueries para tablets Landscape */
