@@ -4285,13 +4285,13 @@ nav.nav-extended {
 }
 
 nav.nav-extended .nav-wrapper {
-  min-height: 56px;
+  max-height: 56px;
   height: auto;
 }
 
 nav.nav-extended .nav-content {
   position: relative;
-  line-height: normal;
+  max-height: 70px;
 }
 
 nav a {
@@ -4337,6 +4337,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
+  max-height: 50px;
 }
 
 nav .brand-logo.center {
@@ -4476,14 +4477,14 @@ nav .input-field label.active i {
 
 @media only screen and (min-width: 601px) {
   nav.nav-extended .nav-wrapper {
-    min-height: 64px;
+    max-height: 50px;
   }
   nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
-    height: 64px;
-    line-height: 64px;
+    height: 50px;
+    line-height: 50px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 50px;
   }
 }
 
@@ -5027,7 +5028,7 @@ small {
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
-  height: 48px;
+  height: 20px;
   width: 100%;
   background-color: #fff;
   margin: 0 auto;
@@ -5070,8 +5071,8 @@ small {
 .tabs .tab {
   display: inline-block;
   text-align: center;
-  line-height: 48px;
-  height: 48px;
+  line-height: 20px;
+  height: 20px;
   padding: 0;
   margin: 0;
   text-transform: uppercase;
