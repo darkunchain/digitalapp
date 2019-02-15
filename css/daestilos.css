@@ -18,6 +18,9 @@ nav.nav-extended {
 nav .sidenav-trigger i {
   line-height: 40px;
 }
+.red.lighten-2 {
+  background-color: #EE6E73 !important;
+}
 
 
 
