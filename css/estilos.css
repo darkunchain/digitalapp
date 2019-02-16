@@ -4398,9 +4398,6 @@ nav .input-field label.active i {
     height: 30px;
     line-height: 30px;
   }
-  nav.nav-extended .nav-content {
-    max-height: 50px;
-  }
   .navbar-fixed {
     height: 40px;
   }
@@ -4408,12 +4405,6 @@ nav .input-field label.active i {
     line-height: 20px;
     height: 20px;
     margin: -5px 0 0 0;
-  }
-  .tabs {
-    height: 20px;
-  }
-  .tabs .tab a {
-    font-size: 12px;
   }
 }
 /*Barra de navegacion fija navbar*/
@@ -4955,6 +4946,7 @@ small {
   background-color: #fff;
   margin: 0 auto;
   white-space: nowrap;
+
 }
 
 .tabs.tabs-transparent {
@@ -5045,9 +5037,6 @@ small {
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-  }
-  .tabs .tab a {
-    padding: 0 12px;
   }
 }
 
