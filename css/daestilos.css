@@ -30,7 +30,10 @@ nav .sidenav-trigger i {
   padding: 0 12px;
   font-size: 12px;
 }
-
+ul.tabs.tabs-transparent a:hover {
+  background-color: transparent;
+  color: #006e73;
+}
 
 
 
